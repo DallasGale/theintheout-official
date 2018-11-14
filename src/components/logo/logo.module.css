@@ -1,0 +1,19 @@
+.logo {
+    display: block;
+    margin: 0 auto;
+    height: 100px;
+    position: relative;
+    width: 100%;
+    animation: movingLogo 0.0004s infinite;
+}
+
+.heading {
+    text-indent: -9000px;
+    font-size: 0;
+}
+
+@keyframes movingLogo {
+    0% { transform: scale(1); width: 98%; }
+    50% { transform: scale(1.08); width: 100%; }
+    100% { transform: scale(1); width: 98%; }
+  }

@@ -1,0 +1,25 @@
+.nav {
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    text-align: center;
+}
+
+.nav img  {
+    height: 20px;
+}
+
+
+.linksList {
+    list-style: none;
+    margin-left: 0;
+    text-align: center;
+}
+
+.linkItem {
+    display: inline-block;
+    padding: 20px;
+}
