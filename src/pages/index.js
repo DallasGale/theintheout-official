@@ -2,9 +2,7 @@ import React from 'react';
 import Layout from '../components/layout';
 
 // Components
-// import AudioPlayer from '../components/audioPlayer/audioPlayer.component';
 import Callout from '../components/callout/callout.component';
-// import Countdown from '../components/countdown/countdown.component';
 import Links from '../components/links/links.component';
 import Logo from '../components/logo/logo.component';
 
@@ -17,9 +15,6 @@ const IndexPage = () => (
       <div className={styles.content}>
         <h1>
           <div className={styles.logoWrapper}>
-            {/* <div className={styles.logoShake}>
-              <Logo fill="#000000" />
-            </div> */}
             <div className={styles.logo}>
               <Logo />
             </div>
@@ -28,15 +23,19 @@ const IndexPage = () => (
         <div className={styles.calloutWrapper}>
           <Callout />
         </div>
-        {/* <p className={styles.callout}>
-          <span className={styles.calloutLine1}>DEBUT.ALBUM.LAUNCH</span>
-          <span className={styles.calloutLine2}>SAT.NOVEMBER.24</span>
-          <span className={styles.calloutLine3}>AT.SWAMPLANDS.BAR</span>
-          <span className={styles.calloutLine4}>THORNBURY.VIC</span>
-        </p> */}
-        {/* <Countdown /> */}
+        <div style={{paddingTop: 20}}>
+          <iframe 
+              title="Soundcloud link to album opener 'DO YOU WANNA'"
+              width="100%" 
+              height="120" 
+              scrolling="no" 
+              frameBorder="no" 
+              allow="autoplay" 
+              src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/517526952&color=%23ef6434&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true">
+
+              </iframe>
+          </div>
         <Links />
-        {/* <AudioPlayer /> */}
       </div>
     </div>
     <div className={styles.videoOverlay}></div>

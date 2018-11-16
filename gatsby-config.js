@@ -17,6 +17,8 @@ module.exports = {
       resolve: `gatsby-plugin-manifest`,
       options: {
         name: 'THE IN THE OUT',
+        background_color: '#F54C2E',
+        theme_color: '#F54C2E',
         short_name: 'starter',
         start_url: '/',
         icon: 'src/images/tito-icon.png', // This path is relative to the root of the site.
@@ -24,6 +26,6 @@ module.exports = {
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.app/offline
-    // 'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ],
 }
