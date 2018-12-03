@@ -16,10 +16,11 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: 'THE IN THE OUT',
+        name: 'THE IN THE OUT - Official site for Melbourne band',
         background_color: '#F54C2E',
         theme_color: '#F54C2E',
-        short_name: 'starter',
+        short_name: 'THE IN THE OUT',
+        display: 'fullscreen',
         start_url: '/',
         icon: 'src/images/tito-icon.png', // This path is relative to the root of the site.
       },

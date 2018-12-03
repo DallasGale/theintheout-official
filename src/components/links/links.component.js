@@ -1,17 +1,11 @@
 import React from 'react';
 import styles from './links.module.css';
+import AppleMusicLogo from '../../images/apple-music-logo.png';
 import BandcampLogo from '../../images/bandcamp-logo.png';
-import EmailIcon from '../../images/email-icon.png';
+import SpotifyLogo from '../../images/spotify-logo.png';
 import FacebookLogo from '../../images/facebook-logo.png';
 
 const links = [
-    {
-        title: 'Facebook',
-        url: 'http://www.facebook.com/theintheoutband',
-        iconSrc: FacebookLogo,
-        target: "_blank",
-        rel: "noopener noreferrer",
-    },
     {
         title: 'Bandcamp',
         url: 'https://theintheout.bandcamp.com',
@@ -20,13 +14,26 @@ const links = [
         rel: "noopener noreferrer"
     },
     {
-        title: 'Email',
-        url: 'mailto:[band][at][theintheout.com]',
-        iconSrc: EmailIcon,
-        target: "",
-        rel: ""
+        title: 'Apple Music',
+        url: 'https://itunes.apple.com/au/album/the-in-the-out/1442046790mailto:[band][at][theintheout.com]',
+        iconSrc: AppleMusicLogo,
+        target: "_blank",
+        rel: "noopener noreferrer"
     },
-
+    {
+        title: 'Spotify',
+        url: 'https://open.spotify.com/album/4HdQLGq98sxNAhfWhD8Py2',
+        iconSrc: SpotifyLogo,
+        target: "_blank",
+        rel: "noopener noreferrer"
+    },
+    {
+        title: 'Facebook',
+        url: 'http://www.facebook.com/theintheoutband',
+        iconSrc: FacebookLogo,
+        target: "_blank",
+        rel: "noopener noreferrer",
+    }
 ]
 
 const Links = () => {

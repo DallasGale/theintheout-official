@@ -2,7 +2,6 @@ import React from 'react';
 import Layout from '../components/layout';
 
 // Components
-import Callout from '../components/callout/callout.component';
 import Links from '../components/links/links.component';
 import Logo from '../components/logo/logo.component';
 
@@ -20,9 +19,6 @@ const IndexPage = () => (
             </div>
           </div>
         </h1>
-        <div className={styles.calloutWrapper}>
-          <Callout />
-        </div>
         <div style={{paddingTop: 20}}>
           <iframe 
               title="Soundcloud link to album opener 'DO YOU WANNA'"
